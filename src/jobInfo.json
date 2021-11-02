@@ -1,0 +1,44 @@
+{
+    "senior": {
+        "position":"Senior Web Developer",
+        "time":"January 2017 - Present",
+        "location":"Manhattan Beach, California",
+        "class":"senior",
+        "description": [
+          "Partnered closely with client and internal stakeholders to meet design and functional requirements within technological restraints.",
+          "Design and developed websites for some of the largest automotive dealership groups in the US, including: Asbury Automotive Group, AutoNation, Hendrick Automotive Group, Larry H. Miller Dealerships, Lithia Motors.",
+          "Full redesign of Lithia Motors website ($384k monthly recurring revenue, $1m advertising budget). Was able to exceed clients expectations to deliver function-forward and design-minded website.",
+          "Design and development of custom luxury website for demanding exotic dealer, O’Gara Coach. Scope of work encompassed custom navigation, home page, vehicle brand pages, model pages, and custom inventory pages across desktop and mobile platforms.",
+          "Lead & mentor junior Web Developers on design & web development projects to help educate colleagues working to improve their competencies. Provide one-on-one instruction and assign challenges that mirror realistic situations of client custom design requests. Skills include: design, css, qa process, photoshop, InVision, and more.",
+          "Website design and development for industry-leading subscription-based luxury car rental and concierge service, Avondale Select.",
+          "Collaborate with internal UX team to optimize inter-departmental relationship, establish a community of practice for design, identify and eliminate process deficiencies, and introduce process enhancements.",
+          "Develop and author web-accessible automation scripts, connecting multiple internal systems, to streamline repetitive tasks for client-facing Project Management teams.",
+          "Collaborate with fellow developer to create six unique splash page designs, used as company ‘base’ templates.",
+          "Designed custom branding logos for department sub-teams including: operations, quality assurance, and web development team and responsible for homegrown web-based applications logos: Gopher & Merlin."
+        ]
+      },
+    
+    "junior": {
+        "position":"Web Developer II",
+        "time":"January 2014 - January 2017",
+        "location":"Burlington, Vermont",
+        "class":"junior",
+        "description": [
+          "Inaugural website design and build for the Genesis Brand, launched for 250+ dealerships nationwide.",
+          "Organized and lead series of meetings with internal Support Development team to discuss issues and trends, improve deficiencies, explore new and emerging technologies, and establish a community of practice for development.",
+          "Managed queue of case work to deliver dev requests for client-facing Project Managers. This included launching sites, adjusting page layouts, styling with extensive CSS, implementing third party codes, full and partial site customizations for clients using HTML, JavaScript, CSS, jQuery, and velocity."
+        ]
+      },
+    
+    "intern": {
+        "position":"Quality Assurance Intern",
+        "time":"February 2013 – January 2014",
+        "location":"Burlington, Vermont",
+        "class":"intern",
+        "description": [
+          "Responsible for reviewing websites for accuracy: related to aesthetics, functionality, and content before sites are launched.",
+          " Implemented third-party features to client's websites which included: call-tracking numbers, language selection buttons, and live chat tools.",
+          " Meticulous attention to detail, and the ability to make judgments on the quality of a website and suggest improvements to the QA process."
+          ]
+        }
+    }

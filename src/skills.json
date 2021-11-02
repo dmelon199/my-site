@@ -1,0 +1,53 @@
+{
+  
+    "html": {
+      "class":"html",
+      "imgUrl": "./skills/html.png",
+      "name": "HTML"
+    },
+    "css": {
+      "class":"css",
+      "imgUrl": "./skills/css.png",
+      "name": "CSS"
+    },
+    "javascript": {
+      "class":"javascript",
+      "imgUrl": "./skills/javascript.png",
+      "name": "Javascript"
+    },
+    "react": {
+      "class":"react",
+      "imgUrl": "./skills/react.png",
+      "name": "React"
+    },
+    "github": {
+      "class":"github",
+      "imgUrl": "./skills/git.png",
+      "name": "GitHub"
+    },
+    "photshop": {
+      "class":"photshop",
+      "imgUrl": "./skills/photoshop.png",
+      "name": "Photoshop"
+    },
+    "illustrator": {
+      "class":"illustrator",
+      "imgUrl": "./skills/illustrator.png",
+      "name": "Illustrator"
+    },
+    "indesign": {
+      "class":"indesign",
+      "imgUrl": "./skills/indesign.png",
+      "name": "InDesign"
+    },
+    "premier": {
+      "class":"premier",
+      "imgUrl": "./skills/premier.png",
+      "name": "Premier"
+    },
+    "lightroom": {
+      "class":"lightroom",
+      "imgUrl": "./skills/lightroom.png",
+      "name": "Lightroom"
+    }
+  }
