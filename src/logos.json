@@ -1,0 +1,67 @@
+{
+    "idev-logo": {
+      "class":"idev",
+      "imgUrl": "./logos/idev3-logo.png",
+      "name": "iDev"
+  },
+    "air-logo": {
+      "class":"air-logo",
+      "imgUrl": "./logos/air-logo.png",
+      "name": "AIR"
+    },
+    "approved-logo": {
+      "class":"approved-logo",
+      "imgUrl": "./logos/approved-logo.png",
+      "name": "iDev Approved"
+    },
+    "imp-logo": {
+      "class":"imp-logo",
+      "imgUrl": "./logos/imp-logo.png",
+      "name": "Implementation"
+    },
+    "iQA-logo": {
+      "class":"iQA-logo",
+      "imgUrl": "./logos/iQA-logo.png",
+      "name": "Implementation QA"
+    },
+    "merlin-logo": {
+      "class":"merlin-logo",
+      "imgUrl": "./logos/merlin-logo.png",
+      "name": "Merlin"
+    },
+    "gopher": {
+      "class":"air-logo",
+      "imgUrl": "./logos/gopher.png",
+      "name": "Gopher"
+    },
+    "easter-gopher": {
+      "class":"approved-logo",
+      "imgUrl": "./logos/easter-gopher.png",
+      "name": "Easter Gopher"
+    },
+    "santa-gopher": {
+      "class":"idev",
+      "imgUrl": "./logos/santa-gopher.png",
+      "name": "Santa Gopher"
+    },
+    "st-patricks-gopher": {
+      "class":"st-patricks-gopher",
+      "imgUrl": "./logos/st-patricks-gopher.png",
+      "name": "Saint Patrick Gopher"
+    },
+    "gopher-cupid": {
+      "class":"gopher-cupid",
+      "imgUrl": "./logos/gopher-cupid.png",
+      "name": "Cupid Gopher"
+    },
+    "summer-gopher": {
+      "class":"summer-gopher",
+      "imgUrl": "./logos/summer-gopher.png",
+      "name": "Summer Gopher"
+    },
+    "turkey-gopher": {
+      "class":"turkey-gopher",
+      "imgUrl": "./logos/turkey-gopher.png",
+      "name": "Turkey Gopher"
+    }
+  }

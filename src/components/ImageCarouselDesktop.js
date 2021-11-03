@@ -6,7 +6,9 @@ const ImageCarouselDesktop = ({ images }) => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [selectedImage, setSelectedImage] = useState(1);
   const carouselItemsRef = useRef([]);
+  const scrollToTop = useRef();
   const scrollRef = useRef();
+
 
   useEffect(() => {
     if (images && images[0]) {
@@ -24,6 +26,7 @@ const ImageCarouselDesktop = ({ images }) => {
     if (images && images.length > 0) {
       setSelectedImage(images[newIdx]);
       setSelectedImageIndex(newIdx);
+      scrollToTop?.current?.scrollTo(0, 0)
       if (scrollRef?.current) {
         scrollRef?.current?.scrollIntoView({
           inline: "nearest",
@@ -40,7 +43,7 @@ const ImageCarouselDesktop = ({ images }) => {
           <div className="skin-overlay" style={{backgroundImage: "url('/images/desktop.png')", backgroundSize: "100%", backgroundRepeat: "no-repeat"}}></div>
           <div className="viewport">
             <div className="desktop_screen">
-              <div className="scroll-wrap">
+              <div ef={scrollToTop} className="scroll-wrap">
                 <div className="selected-image-desktop" style={{ backgroundImage: `url(${selectedImage?.url})`, height:`${selectedImage?.height}`, backgroundPosition: 'center top' }}/>
               </div>
             </div>

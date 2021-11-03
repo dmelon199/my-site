@@ -19,6 +19,7 @@ import Avondale from "./pages/Avondale";
 import Fredbeans from "./pages/Fredbeans";
 import Luther from "./pages/Luther";
 import Carter from "./pages/Carter";
+import Sunwise from "./pages/Sunwise";
 import Projects from "./pages/Projects";
 import LoadingScreen from './components/Loading';
 
@@ -45,6 +46,7 @@ const App = () => {
             <Route exact path="/fredbeans" component={Fredbeans}/>
             <Route exact path="/luther" component={Luther}/>
             <Route exact path="/carter-meyers" component={Carter}/>
+            <Route exact path="/sunwise" component={Sunwise}/>
           </Switch>
         <Footer />
     </Router>

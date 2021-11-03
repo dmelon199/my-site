@@ -6,7 +6,7 @@ import ImageCarouselMobile from "../components/ImageCarouselMobile"
 const desktopImages = [
   { id: 1, name:'INDEX', url: '/images/desktop/avondale/avondale-INDEX.jpg', height:'3208px' },
   { id: 2, name:'GETTING-STARTED', url: '/images/desktop/avondale/avondale-GETTING-STARTED.jpg', height:'2059px' },
-	{ id: 3, name:'MEMBERS', url: '/images/desktop/avondale/avondale-MEMBERS.jpg', height:'5436px' },
+	{ id: 3, name:'MEMBERS', url: '/images/desktop/avondale/avondale-MEMBERS.jpg', height:'2660px' },
   { id: 4, name:'HOW-IT-WORKS', url: '/images/desktop/avondale/avondale-HOW-IT-WORKS.jpg', height:'2941px' },
   { id: 5, name:'PLUS', url: '/images/desktop/avondale/avondale-PLUS.jpg', height:'3246px' },
   { id: 6, name:'PREMIUM', url: '/images/desktop/avondale/avondale-PREMIUM.jpg', height:'4795px' },

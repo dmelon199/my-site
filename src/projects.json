@@ -1,5 +1,4 @@
 {
-  
     "lithia": {
       "class":"lithia",
       "link":"/lithia",
@@ -42,10 +41,16 @@
       "imgUrl": "./images/desktop/luther/luther-index.jpg",
       "name": "Luther Automotive"
     },
-    "genesis": {
-      "class":"indesign",
-      "link":"/avondale",
-      "imgUrl": "./photoshop-files/sites/lithia.png",
-      "name": "Genesis"
+    "sunwise": {
+      "class":"sunwise",
+      "link":"/sunwise",
+      "imgUrl": "./images/desktop/sunwise/sunwise-INDEX.jpg",
+      "name": "Sunwise Automotive Group"
+    },
+    "nahant": {
+      "class":"nahant",
+      "link":"http://nahantbeach.com/",
+      "imgUrl": "./images/desktop/nahant/nahant-INDEX.png",
+      "name": "Nahant Beach"
     }
   }

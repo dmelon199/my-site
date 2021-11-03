@@ -73,8 +73,10 @@ const MyProjects = () => {
             </Link>
           </div>
           <div className='slide'>
-            <img style={{width: "100%"}} src="/photoshop-files/sites/lithia.png"/>
-            <h3 className='pt-3 text-center'>Genesis</h3>
+            <Link to ='/sunwise'>
+              <img style={{width: "100%"}} src="/photoshop-files/sites/sunwise.png"/>
+              <h3 className='pt-3 text-center'>Sunwise Automotive Group</h3>
+            </Link>
           </div>
         </Carousel>
       </div>
