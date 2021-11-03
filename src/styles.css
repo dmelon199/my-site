@@ -403,4 +403,28 @@ body {
 }
 
 
+/* PROJECT PAGE */
+.project-column {
+  text-align: center;
+  margin: 30px 0px;
+  border-radius: 7px;
+  flex-wrap: wrap;
+}
 
+.project-column h3 {
+  border-bottom: 2px solid #ebecee;
+  border-left: 2px solid #ebecee;
+  border-right: 2px solid #ebecee;
+  margin: 0 10%;
+  padding: 25px 0px;
+}
+
+.project-image {
+  height: 225px;
+  min-width: 150px;
+  margin: 0 10%;
+  border: 2px solid #ebecee;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

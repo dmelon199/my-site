@@ -1,0 +1,51 @@
+{
+  
+    "lithia": {
+      "class":"lithia",
+      "link":"/lithia",
+      "imgUrl": "./images/desktop/lithia/lithia-index.jpg",
+      "name": "Lithia Motors"
+    },
+    "salt-lake": {
+      "class":"salt-lake",
+      "link":"/salt-lake-city",
+      "imgUrl": "./images/desktop/saltlake/saltlake-index.jpg",
+      "name": "Salt Lake City Motorcars"
+    },
+    "avondale": {
+      "class":"avondale",
+      "link":"/avondale-select",
+      "imgUrl": "./images/desktop/avondale/avondale-index.jpg",
+      "name": "Avondale Select"
+    },
+    "ogara": {
+      "class":"ogara",
+      "link":"/ogara-coach",
+      "imgUrl": "./images/desktop/ogara/ogara-index.jpg",
+      "name": "O'Gara Coach"
+    },
+    "fredbeans": {
+      "class":"fredbeans",
+      "link":"/fredbeans",
+      "imgUrl": "./images/desktop/fredbeans/fredbeans-index.jpg",
+      "name": "Fred Beans Auto Group"
+    },
+    "carter": {
+      "class":"carter",
+      "link":"/carter-meyers",
+      "imgUrl": "./images/desktop/cartermyers/carter-index.jpg",
+      "name": "Carter Meyers Automotive"
+    },
+    "luther": {
+      "class":"luther",
+      "link":"/luther",
+      "imgUrl": "./images/desktop/luther/luther-index.jpg",
+      "name": "Luther Automotive"
+    },
+    "genesis": {
+      "class":"indesign",
+      "link":"/avondale",
+      "imgUrl": "./photoshop-files/sites/lithia.png",
+      "name": "Genesis"
+    }
+  }

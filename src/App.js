@@ -19,6 +19,7 @@ import Avondale from "./pages/Avondale";
 import Fredbeans from "./pages/Fredbeans";
 import Luther from "./pages/Luther";
 import Carter from "./pages/Carter";
+import Projects from "./pages/Projects";
 import LoadingScreen from './components/Loading';
 
 const App = () => {
@@ -36,6 +37,7 @@ const App = () => {
         <Scroll />
           <Switch>
             <Route exact path="/" component={MainPage}/>
+            <Route exact path="/projects" component={Projects}/>
             <Route exact path="/lithia" component={Lithia}/>
             <Route exact path="/salt-lake-city" component={SaltLake}/>
             <Route exact path="/avondale-select" component={Avondale}/>
