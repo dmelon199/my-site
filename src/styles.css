@@ -451,13 +451,28 @@ body {
     padding: 0px !important;
   }
   h1 {
-    font-size: 28px  !important;
+    font-size: 30px  !important;
   }
   .slide h3,.skill-column h3 {
     font-size: 20px !important;
   }
   .skill-column {
     width: 50%;
+  }
+  .experience-container {
+    padding-right: 0px !important;
+  }
+  .position-info h2 {
+    font-size: 20px;
+  }
+  .position-info h3 {
+    font-size: 17px !important;
+  }
+  .position-info h4 {
+    font-size: 15px !important;
+  }
+  .my-education-content h2 {
+    font-size: 20px;
   }
   .my-education-content .logo {
     display:none
@@ -467,6 +482,15 @@ body {
   }
   .my-education-content .info,.my-education-content {
     padding: 0px !important;
+  }
+  .my-education-wrapper .my-education-content {
+    padding-top: 10px !important;
+  }
+  .header {
+    justify-content: center;
+  }
+  .header p {
+    display: none;
   }
 }
 
