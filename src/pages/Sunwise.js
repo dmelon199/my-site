@@ -5,17 +5,17 @@ import ImageCarouselMobile from "../components/ImageCarouselMobile"
 
 const desktopImages = [
   { id: 1, name:'INDEX', url: '/images/desktop/sunwise/sunwise-INDEX.jpg', height:'979px' },
-  { id: 2, name:'INDEX2', url: '/images/desktop/sunwise/sunwise-SERVICE.jpg', height:'979px' },
-  { id: 3, name:'SRP', url: '/images/desktop/sunwise/sunwise-SERVICE-dropdown.jpg', height:'979px' },
-  { id: 4, name:'VDP', url: '/images/desktop/sunwise/sunwise-SHOP.jpg', height:'979px' },
-  { id: 5, name:'VDP', url: '/images/desktop/sunwise/sunwise-SHOP-dropdown.jpg', height:'979px' },
+  { id: 2, name:'SERVICE', url: '/images/desktop/sunwise/sunwise-SERVICE.jpg', height:'979px' },
+  { id: 3, name:'SERVICE-DROPDOWN', url: '/images/desktop/sunwise/sunwise-SERVICE-dropdown.jpg', height:'979px' },
+  { id: 4, name:'SHOP', url: '/images/desktop/sunwise/sunwise-SHOP.jpg', height:'979px' },
+  { id: 5, name:'SHOP-DROPDOWN', url: '/images/desktop/sunwise/sunwise-SHOP-dropdown.jpg', height:'979px' },
 ]
 
 const mobileImages = [
-    { id: 1, name:'INDEX', url: '/images/mobile/luther/luther-INDEX-mobile.jpg', height:'3734px' },
-    { id: 2, name:'INDEX', url: '/images/mobile/luther/luther-INDEX-2-mobile.jpg', height:'3734px' },
-    { id: 3, name:'SRP', url: '/images/mobile/luther/luther-SRP-mobile.jpg', height:'3931px' },
-    { id: 4, name:'VDP', url: '/images/mobile/luther/luther-VDP-mobile.jpg', height:'2605px' },
+    { id: 1, name:'INDEX', url: '/images/mobile/sunwise/sunwise-INDEX-mobile.jpg', height:'1007px' },
+    { id: 2, name:'SERVICE', url: '/images/mobile/sunwise/sunwise-SERVICE-mobile.jpg', height:'840px' },
+    { id: 3, name:'SERVICE-DROPDOWN', url: '/images/mobile/sunwise/sunwise-SERVICE-mobile-dropdown.jpg', height:'840px' },
+    { id: 4, name:'SHOP', url: '/images/mobile/sunwise/sunwise-SHOP-mobile.jpg', height:'840px' },
 ]
 
 
