@@ -5,6 +5,7 @@ const ImageCarouselMobile = ({ images }) => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [selectedImage, setSelectedImage] = useState();
   const carouselItemsRef = useRef([]);
+	const scrollToTop = useRef();
 	const scrollRef = useRef();
 
   useEffect(() => {
@@ -23,6 +24,7 @@ const ImageCarouselMobile = ({ images }) => {
     if (images && images.length > 0) {
       setSelectedImage(images[newIdx]);
       setSelectedImageIndex(newIdx);
+			scrollToTop?.current?.scrollTo(0, 0);
       if (scrollRef?.current) {
         scrollRef?.current?.scrollIntoView({
           inline: "nearest",
@@ -39,7 +41,7 @@ const ImageCarouselMobile = ({ images }) => {
 				<div className="mobile-skin-overlay" style={{backgroundImage: "url('/images/mobile.png')", backgroundSize: "100%", backgroundRepeat: "no-repeat"}}></div>
 					<div className="mobile-viewport">
 					 	<div className="mobile_screen">
-							<div className="mobile-scroll-wrap">
+							<div ref={scrollToTop} className="mobile-scroll-wrap">
 								<div className="selected-image-mobile" style={{ backgroundImage: `url(${selectedImage?.url})`, height:`${selectedImage?.height}`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center top' }}/>
 							</div>
 						</div>
