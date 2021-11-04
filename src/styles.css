@@ -412,8 +412,14 @@ body {
   margin: 0 10%;
   border-radius: 7px;
   border: 2px solid #ebecee;
+  transition: .5s;
 }
 
+.project-column a:hover {
+  box-shadow: 1px 1px 20px rgb(0 0 0 / 20%);
+  transition: .5s;
+  text-decoration: none;
+}
 
 .project-column h3 {
   margin: 0px;
