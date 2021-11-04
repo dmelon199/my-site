@@ -6,7 +6,7 @@ const MySkills = () => {
   return ( 
     <div className="skills-wrapper d-flex flex-column p-5 bg-gray">
       <h1 className="widget-heading">Commonly Used Languages and Apps</h1>
-        <div className="skills-content container-xl">
+        <div className="skills-content">
           {Object.keys(skills).map(function(item) {
             return (
               <SkillsList

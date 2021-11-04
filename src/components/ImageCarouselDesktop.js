@@ -22,11 +22,13 @@ const ImageCarouselDesktop = ({ images }) => {
     }
   }, [images]);
 
+  scrollToTop?.current?.scrollTo(0, 0);
+  
   const handleSelectedImageChange = (newIdx) => {
+    
     if (images && images.length > 0) {
       setSelectedImage(images[newIdx]);
       setSelectedImageIndex(newIdx);
-      scrollToTop?.current?.scrollTo(0, 0)
       if (scrollRef?.current) {
         scrollRef?.current?.scrollIntoView({
           inline: "nearest",

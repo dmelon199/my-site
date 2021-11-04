@@ -266,7 +266,6 @@ body {
 
 /* SKILLS */
 .skill-column {
-  display: inline-block;
   width: 20%;
   text-align: center;
   margin: 20px 0px
@@ -411,19 +410,24 @@ body {
   flex-wrap: wrap;
 }
 
-.project-column h3 {
-  border-bottom: 2px solid #ebecee;
-  border-left: 2px solid #ebecee;
-  border-right: 2px solid #ebecee;
+.project-column a {
+  display: block;
+  text-align: center;
   margin: 0 10%;
+  border-radius: 7px;
+  border: 2px solid #ebecee;
+}
+
+
+.project-column h3 {
+  margin: 0px;
   padding: 25px 0px;
 }
 
 .project-image {
   height: 225px;
   min-width: 150px;
-  margin: 0 10%;
-  border: 2px solid #ebecee;
+  border-radius: 6px 6px 0px 0px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
