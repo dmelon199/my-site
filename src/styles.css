@@ -189,7 +189,7 @@ body {
 .slide h3 {
   color: gray;
   font-weight: 500 !important;
-  font-size: 2vw;
+  font-size: 2vh;
 }
 
 .slide img {
@@ -209,8 +209,6 @@ body {
   color: #000;
   transition: 1s ease;
 }
-
-
 
 /* RESUME POSITIONS*/
 .position-experience li::marker {
@@ -263,10 +261,8 @@ body {
 }
 
 
-
 /* SKILLS */
 .skill-column {
-  width: 20%;
   text-align: center;
   margin: 20px 0px
 }
@@ -447,3 +443,36 @@ body {
   padding: 25px 0px;
   border: none;
 }
+
+
+/* MOBILE STYLES */
+@media only screen and (max-device-width: 600px) {
+  .experience-content ul {
+    padding: 0px !important;
+  }
+  h1 {
+    font-size: 28px  !important;
+  }
+  .slide h3,.skill-column h3 {
+    font-size: 20px !important;
+  }
+  .skill-column {
+    width: 50%;
+  }
+  .my-education-content .logo {
+    display:none
+  }
+  .resume-button .btn-primary {
+    margin: 0px !important;
+  }
+  .my-education-content .info,.my-education-content {
+    padding: 0px !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .skill-column  {
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+  }

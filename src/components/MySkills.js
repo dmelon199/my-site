@@ -4,9 +4,9 @@ import SkillsList from './SkillsList';
 
 const MySkills = () => {
   return ( 
-    <div className="skills-wrapper d-flex flex-column p-5 bg-gray">
+    <div className="skills-wrapper d-flex flex-column bg-gray p-5">
       <h1 className="widget-heading">Commonly Used Languages and Apps</h1>
-        <div className="skills-content">
+        <div className="skills-content d-flex flex-wrap">
           {Object.keys(skills).map(function(item) {
             return (
               <SkillsList
