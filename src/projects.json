@@ -8,37 +8,37 @@
     "salt-lake": {
       "class":"salt-lake",
       "link":"/salt-lake-city",
-      "imgUrl": "./images/desktop/saltlake/saltlake-index.jpg",
+      "imgUrl": "./images/desktop/saltlake/saltlake-INDEX.jpg",
       "name": "Salt Lake City Motorcars"
     },
     "avondale": {
       "class":"avondale",
       "link":"/avondale-select",
-      "imgUrl": "./images/desktop/avondale/avondale-index.jpg",
+      "imgUrl": "./images/desktop/avondale/avondale-INDEX.jpg",
       "name": "Avondale Select"
     },
     "ogara": {
       "class":"ogara",
       "link":"/ogara-coach",
-      "imgUrl": "./images/desktop/ogara/ogara-index.jpg",
+      "imgUrl": "./images/desktop/ogara/ogara-INDEX.jpg",
       "name": "O'Gara Coach"
     },
     "fredbeans": {
       "class":"fredbeans",
       "link":"/fredbeans",
-      "imgUrl": "./images/desktop/fredbeans/fredbeans-index.jpg",
+      "imgUrl": "./images/desktop/fredbeans/fredbeans-INDEX.jpg",
       "name": "Fred Beans Auto Group"
     },
     "carter": {
       "class":"carter",
       "link":"/carter-meyers",
-      "imgUrl": "./images/desktop/cartermyers/carter-index.jpg",
+      "imgUrl": "./images/desktop/cartermyers/carter-INDEX.jpg",
       "name": "Carter Meyers Automotive"
     },
     "luther": {
       "class":"luther",
       "link":"/luther",
-      "imgUrl": "./images/desktop/luther/luther-index.jpg",
+      "imgUrl": "./images/desktop/luther/luther-INDEX.jpg",
       "name": "Luther Automotive"
     },
     "sunwise": {

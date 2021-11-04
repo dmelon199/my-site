@@ -24,7 +24,7 @@ const WelcomeSection = () => {
 							</a>
 						</li>
 						<li className="ml-3" style={{padding: "10px 0px"}}>
-							<a href="https://github.com/dmelon199/reactProjects" target="_blank">
+							<a href="https://github.com/dmelon199/my-site" target="_blank">
 								<img src="/icons/github.svg" className="filter-color" alt="GitHub Profile Link To Projects" title="GitHub"/>
 							</a>
 						</li>

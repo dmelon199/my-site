@@ -9,7 +9,7 @@ const desktopImages = [
 	{ id: 3, name:'MEMBERS', url: '/images/desktop/avondale/avondale-MEMBERS.jpg', height:'2660px' },
   { id: 4, name:'HOW-IT-WORKS', url: '/images/desktop/avondale/avondale-HOW-IT-WORKS.jpg', height:'2941px' },
   { id: 5, name:'PLUS', url: '/images/desktop/avondale/avondale-PLUS.jpg', height:'3246px' },
-  { id: 6, name:'PREMIUM', url: '/images/desktop/avondale/avondale-PREMIUM.jpg', height:'4795px' },
+  { id: 6, name:'PREMIUM', url: '/images/desktop/avondale/avondale-PREMIUM.jpg', height:'3476px' },
   { id: 7, name:'PRIME', url: '/images/desktop/avondale/avondale-PRIME.jpg', height:'2940px' },
 ]
 

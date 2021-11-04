@@ -14,11 +14,11 @@ const desktopImages = [
 
 const mobileImages = [
     { id: 1, name:'INDEX', url: '/images/mobile/saltlake/saltlake-INDEX-mobile.jpg', height:'4354px' },
-    { id: 1, name:'INDEX2', url: '/images/mobile/saltlake/saltlake-INDEX-mobile-2.jpg', height:'4326px' },
+    { id: 1, name:'INDEX2', url: '/images/mobile/saltlake/saltlake-INDEX-mobile-2.jpg', height:'3893px' },
     { id: 3, name:'SRP', url: '/images/mobile/saltlake/saltlake-SRP-mobile.jpg', height:'3725px' },
     { id: 4, name:'VDP', url: '/images/mobile/saltlake/saltlake-VDP-mobile.jpg', height:'2226px' },
-    { id: 5, name:'SHOWROOM', url: '/images/mobile/saltlake/saltlake-SHOWROOM-mobile.jpg', height:'1661px' },
-    { id: 6, name:'SERVICE', url: '/images/mobile/saltlake/saltlake-SERVICE-mobile.jpg', height:'5281px' },
+    { id: 5, name:'SHOWROOM', url: '/images/mobile/saltlake/saltlake-SHOWROOM-mobile.jpg', height:'1495px' },
+    { id: 6, name:'SERVICE', url: '/images/mobile/saltlake/saltlake-SERVICE-mobile.jpg', height:'4753px' },
 ]
 
 

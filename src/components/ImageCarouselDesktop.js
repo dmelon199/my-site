@@ -22,13 +22,12 @@ const ImageCarouselDesktop = ({ images }) => {
     }
   }, [images]);
 
-  scrollToTop?.current?.scrollTo(0, 0);
-  
+
   const handleSelectedImageChange = (newIdx) => {
-    
     if (images && images.length > 0) {
       setSelectedImage(images[newIdx]);
       setSelectedImageIndex(newIdx);
+      scrollToTop?.current?.scrollTo(0, 0);
       if (scrollRef?.current) {
         scrollRef?.current?.scrollIntoView({
           inline: "nearest",
@@ -45,7 +44,7 @@ const ImageCarouselDesktop = ({ images }) => {
           <div className="skin-overlay" style={{backgroundImage: "url('/images/desktop.png')", backgroundSize: "100%", backgroundRepeat: "no-repeat"}}></div>
           <div className="viewport">
             <div className="desktop_screen">
-              <div ef={scrollToTop} className="scroll-wrap">
+              <div ref={scrollToTop} className="scroll-wrap">
                 <div className="selected-image-desktop" style={{ backgroundImage: `url(${selectedImage?.url})`, height:`${selectedImage?.height}`, backgroundPosition: 'center top' }}/>
               </div>
             </div>

@@ -5,8 +5,8 @@ import ImageCarouselMobile from "../components/ImageCarouselMobile"
 const desktopImages = [
   { id: 1, name:'INDEX', url: '/images/desktop/fredbeans/fredbeans-INDEX.jpg', height:'4162px' },
   { id: 2, name:'INDEX2', url: '/images/desktop/fredbeans/fredbeans-INDEX-2.jpg', height:'3956px' },
-  { id: 3, name:'SRP', url: '/images/desktop/fredbeans/fredbeans-SRP.jpg', height:'2237px' },
-  { id: 4, name:'VDP', url: '/images/desktop/fredbeans/fredbeans-VDP.jpg', height:'2435px' },
+  { id: 3, name:'SRP', url: '/images/desktop/fredbeans/fredbeans-SRP.jpg', height:'3322px' },
+  { id: 4, name:'VDP', url: '/images/desktop/fredbeans/fredbeans-VDP.jpg', height:'3332px' },
   { id: 5, name:'SERVICE', url: '/images/desktop/fredbeans/fredbeans-SERVICE.jpg', height:'3344px' },
   { id: 6, name:'CAREERS', url: '/images/desktop/fredbeans/fredbeans-CAREERS.jpg', height:'3195px' },
 ]

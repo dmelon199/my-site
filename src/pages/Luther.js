@@ -11,10 +11,10 @@ const desktopImages = [
 ]
 
 const mobileImages = [
-    { id: 1, name:'INDEX', url: '/images/mobile/luther/luther-INDEX-mobile.jpg', height:'3734px' },
-    { id: 2, name:'INDEX', url: '/images/mobile/luther/luther-INDEX-2-mobile.jpg', height:'3734px' },
-    { id: 3, name:'SRP', url: '/images/mobile/luther/luther-SRP-mobile.jpg', height:'3931px' },
-    { id: 4, name:'VDP', url: '/images/mobile/luther/luther-VDP-mobile.jpg', height:'2605px' },
+    { id: 1, name:'INDEX', url: '/images/mobile/luther/luther-INDEX-mobile.jpg', height:'4971px' },
+    { id: 2, name:'INDEX', url: '/images/mobile/luther/luther-INDEX-2-mobile.jpg', height:'4971px' },
+    { id: 3, name:'SRP', url: '/images/mobile/luther/luther-SRP-mobile.jpg', height:'4430px' },
+    { id: 4, name:'VDP', url: '/images/mobile/luther/luther-VDP-mobile.jpg', height:'2850px' },
 ]
 
 
