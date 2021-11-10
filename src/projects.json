@@ -49,7 +49,7 @@
     },
     "nahant": {
       "class":"nahant",
-      "link":"http://nahantbeach.com/",
+      "link":"/nahant",
       "imgUrl": "./images/desktop/nahant/nahant-INDEX.png",
       "name": "Nahant Beach"
     }

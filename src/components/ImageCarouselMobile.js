@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-
+import { useMediaQuery } from 'react-responsive'
 
 const ImageCarouselMobile = ({ images }) => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
@@ -34,6 +34,15 @@ const ImageCarouselMobile = ({ images }) => {
     }
   };
 
+	const Desktop = ({ children }) => {
+		const isDesktop = useMediaQuery({ minWidth: 600 })
+		return isDesktop ? children : null
+	};
+	const Mobile = ({ children }) => {
+		const isMobile = useMediaQuery({ maxWidth: 600 })
+		return isMobile ? children : null
+	}
+
   return (
     <div className="mobile-wrapper p-5 bg-gray">
 			<h2 ref={scrollRef}>Mobile Mockups:</h2>
@@ -42,7 +51,12 @@ const ImageCarouselMobile = ({ images }) => {
 					<div className="mobile-viewport">
 					 	<div className="mobile_screen">
 							<div ref={scrollToTop} className="mobile-scroll-wrap">
-								<div className="selected-image-mobile" style={{ backgroundImage: `url(${selectedImage?.url})`, height:`${selectedImage?.height}`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center top' }}/>
+								<Desktop>
+									<div className="selected-image-mobile" style={{ backgroundImage: `url(${selectedImage?.url})`, height:`${selectedImage?.height}`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center top' }}/>
+								</Desktop>
+								<Mobile>
+									<div className="selected-image-mobile" style={{ backgroundImage: `url(${selectedImage?.url})`, height:`${selectedImage?.mobileHeight}`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center top' }}/>
+								</Mobile>
 							</div>
 						</div>
 					</div>

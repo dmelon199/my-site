@@ -47,6 +47,7 @@ const App = () => {
             <Route exact path="/luther" component={Luther}/>
             <Route exact path="/carter-meyers" component={Carter}/>
             <Route exact path="/sunwise" component={Sunwise}/>
+            <Route path="/nahant" component={() => { window.location.href = 'https://nahantbeach.com/'; return null;}}/>
           </Switch>
         <Footer />
     </Router>

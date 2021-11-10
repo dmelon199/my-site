@@ -11,11 +11,11 @@ const desktopImages = [
 ]
 
 const mobileImages = [
-    { id: 1, name:'INDEX', url: '/images/mobile/cartermyers/carter-INDEX-mobile.jpg', height:'3734px' },
-    { id: 2, name:'SRP', url: '/images/mobile/cartermyers/carter-SRP-mobile.jpg', height:'3931px' },
-    { id: 3, name:'VDP', url: '/images/mobile/cartermyers/carter-VDP-mobile.jpg', height:'2605px' },
-    { id: 4, name:'COMMUNITY', url: '/images/mobile/cartermyers/carter-COMMUNITY-mobile.jpg', height:'6257px' },
-    { id: 5, name:'CAREER', url: '/images/mobile/cartermyers/carter-CAREER-mobile.jpg', height:'4156px' },
+    { id: 1, name:'INDEX', url: '/images/mobile/cartermyers/carter-INDEX-mobile.jpg', height:'3734px', mobileHeight: '2435px' },
+    { id: 2, name:'SRP', url: '/images/mobile/cartermyers/carter-SRP-mobile.jpg', height:'3931px', mobileHeight: '2210px' },
+    { id: 3, name:'VDP', url: '/images/mobile/cartermyers/carter-VDP-mobile.jpg', height:'2605px', mobileHeight: '1695px' },
+    { id: 4, name:'COMMUNITY', url: '/images/mobile/cartermyers/carter-COMMUNITY-mobile.jpg', height:'6257px', mobileHeight: '4075px' },
+    { id: 5, name:'CAREER', url: '/images/mobile/cartermyers/carter-CAREER-mobile.jpg', height:'4156px', mobileHeight: '2710px' },
 ]
 
 

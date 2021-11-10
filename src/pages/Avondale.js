@@ -14,13 +14,13 @@ const desktopImages = [
 ]
 
 const mobileImages = [
-	{ id: 1, name:'INDEX', url: '/images/mobile/avondale/avondale-INDEX-mobile.jpg', height:'4791px' },
-	{ id: 2, name:'GETTING-STARTED', url: '/images/mobile/avondale/avondale-GETTING-STARTED-mobile.jpg', height:'3554px' },
-	{ id: 3, name:'MEMBERS', url: '/images/mobile/avondale/avondale-MEMBERS-STORIES-mobile.jpg', height:'5436px' },
-	{ id: 4, name:'HOW-IT-WORKS', url: '/images/mobile/avondale/avondale-HOW-IT-WORKS-mobile.jpg', height:'4850px' },
-	{ id: 5, name:'PLUS', url: '/images/mobile/avondale/avondale-PLUS-mobile.jpg', height:'4486px' },
-	{ id: 6, name:'PREMIUM', url: '/images/mobile/avondale/avondale-PREMIUM-mobile.jpg', height:'4683px' },
-	{ id: 7, name:'PRIME', url: '/images/mobile/avondale/avondale-PRIME-mobile.jpg', height:'4177px' },
+	{ id: 1, name:'INDEX', url: '/images/mobile/avondale/avondale-INDEX-mobile.jpg', height:'4791px', mobileHeight: '3120px' },
+	{ id: 2, name:'GETTING-STARTED', url: '/images/mobile/avondale/avondale-GETTING-STARTED-mobile.jpg', height:'3554px', mobileHeight: '2325px' },
+	{ id: 3, name:'MEMBERS', url: '/images/mobile/avondale/avondale-MEMBERS-STORIES-mobile.jpg', height:'5436px', mobileHeight: '3545px' },
+	{ id: 4, name:'HOW-IT-WORKS', url: '/images/mobile/avondale/avondale-HOW-IT-WORKS-mobile.jpg', height:'4850px', mobileHeight: '3165px' },
+	{ id: 5, name:'PLUS', url: '/images/mobile/avondale/avondale-PLUS-mobile.jpg', height:'4486px', mobileHeight: '2925px' },
+	{ id: 6, name:'PREMIUM', url: '/images/mobile/avondale/avondale-PREMIUM-mobile.jpg', height:'4683px', mobileHeight: '3050px' },
+	{ id: 7, name:'PRIME', url: '/images/mobile/avondale/avondale-PRIME-mobile.jpg', height:'4177px', mobileHeight: '2720px' },
 ]
 
 

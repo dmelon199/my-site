@@ -63,5 +63,10 @@
       "class":"turkey-gopher",
       "imgUrl": "./logos/turkey-gopher.png",
       "name": "Turkey Gopher"
+    },
+    "halloween-gopher": {
+      "class":"halloween-gopher",
+      "imgUrl": "./logos/pumpkin-gopher.png",
+      "name": "Halloween Gopher"
     }
   }

@@ -15,13 +15,13 @@ const desktopImages = [
 ]
 
 const mobileImages = [
-    { id: 1, name:'INDEX', url: '/images/mobile/ogara/ogara-INDEX-mobile.jpg', height:'4560px' },
-    { id: 2, name:'INDEX2', url: '/images/mobile/ogara/ogara-INDEX-2-mobile.jpg', height:'3203px' },
-    { id: 3, name:'INDEX3', url: '/images/mobile/ogara/ogara-INDEX-3-mobile.jpg', height:'3817px' },
-    { id: 4, name:'SRP', url: '/images/mobile/ogara/ogara-SRP-mobile.jpg', height:'3667px' },
-    { id: 5, name:'VDP', url: '/images/mobile/ogara/ogara-VDP-mobile.jpg', height:'2280px' },
-    { id: 6, name:'BRAND', url: '/images/mobile/ogara/ogara-BRAND-mobile.jpg', height:'1861px' },
-    { id: 7, name:'MODEL', url: '/images/mobile/ogara/ogara-MODEL-mobile.jpg', height:'5072px' },
+    { id: 1, name:'INDEX', url: '/images/mobile/ogara/ogara-INDEX-mobile.jpg', height:'4560px', mobileHeight: '2995px' },
+    { id: 2, name:'INDEX2', url: '/images/mobile/ogara/ogara-INDEX-2-mobile.jpg', height:'3203px', mobileHeight: '2090px' },
+    { id: 3, name:'INDEX3', url: '/images/mobile/ogara/ogara-INDEX-3-mobile.jpg', height:'3817px', mobileHeight: '2490px' },
+    { id: 4, name:'SRP', url: '/images/mobile/ogara/ogara-SRP-mobile.jpg', height:'3667px', mobileHeight: '2390px' },
+    { id: 5, name:'VDP', url: '/images/mobile/ogara/ogara-VDP-mobile.jpg', height:'2280px', mobileHeight: '1485px' },
+    { id: 6, name:'BRAND', url: '/images/mobile/ogara/ogara-BRAND-mobile.jpg', height:'1861px', mobileHeight: '1215px' },
+    { id: 7, name:'MODEL', url: '/images/mobile/ogara/ogara-MODEL-mobile.jpg', height:'5072px', mobileHeight: '3305px' },
 ]
 
 

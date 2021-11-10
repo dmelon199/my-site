@@ -493,11 +493,50 @@ body {
   .my-education-wrapper .my-education-content {
     padding-top: 10px !important;
   }
-  .header {
+  body .header {
     justify-content: center;
+    padding: 2rem !important;
   }
-  .header p {
+  .mobile-wrapper {
+    background: transparent;
+  }
+  .mobile-skin-overlay {
+    width: 76%;
+    background-size: contain;
+  }
+  .mobile-viewport {
+    height: 530px;
+    width: 245px;
+    margin: 13px;
+  }
+  .selected-image-mobile {
+    background-size: contain;
+    background-position: inherit;
+  }
+  .mobile-scroll-wrap {
+    padding-right: 0px;
+  }
+  .mobile-skin {
+    height: 556px;
+    width: 360px;
+  }
+  .header p, .desktop-wrapper {
     display: none;
+  }
+  .carousel-images {
+    display: inline-block;
+  }
+  .carousel-image {
+    margin: 10px;
+    height: 120px;
+    display: inline-block;
+    min-width: 110px;
+  }
+  .welcome-left-hero .content p {
+    font-size: 60px;
+  }
+  .welcome-hero.welcome-right-hero {
+    padding: 0 2rem !important;
   }
 }
 

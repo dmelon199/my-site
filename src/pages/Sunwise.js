@@ -12,10 +12,10 @@ const desktopImages = [
 ]
 
 const mobileImages = [
-    { id: 1, name:'INDEX', url: '/images/mobile/sunwise/sunwise-INDEX-mobile.jpg', height:'1007px' },
-    { id: 2, name:'SERVICE', url: '/images/mobile/sunwise/sunwise-SERVICE-mobile.jpg', height:'840px' },
-    { id: 3, name:'SERVICE-DROPDOWN', url: '/images/mobile/sunwise/sunwise-SERVICE-mobile-dropdown.jpg', height:'840px' },
-    { id: 4, name:'SHOP', url: '/images/mobile/sunwise/sunwise-SHOP-mobile.jpg', height:'840px' },
+    { id: 1, name:'INDEX', url: '/images/mobile/sunwise/sunwise-INDEX-mobile.jpg', height:'1007px', mobileHeight: '660px' },
+    { id: 2, name:'SERVICE', url: '/images/mobile/sunwise/sunwise-SERVICE-mobile.jpg', height:'840px', mobileHeight: '550px' },
+    { id: 3, name:'SERVICE-DROPDOWN', url: '/images/mobile/sunwise/sunwise-SERVICE-mobile-dropdown.jpg', height:'840px', mobileHeight: '550px' },
+    { id: 4, name:'SHOP', url: '/images/mobile/sunwise/sunwise-SHOP-mobile.jpg', height:'840px', mobileHeight: '550px' },
 ]
 
 
