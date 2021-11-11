@@ -2,9 +2,8 @@
 import './styles.css';
 import React, { useState, useEffect } from 'react'
 
-
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { render } from 'react-dom';
+
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -47,7 +46,6 @@ const App = () => {
             <Route exact path="/luther" component={Luther}/>
             <Route exact path="/carter-meyers" component={Carter}/>
             <Route exact path="/sunwise" component={Sunwise}/>
-            <Route path="/nahant" component={() => { window.location.href = 'https://nahantbeach.com/'; return null;}}/>
           </Switch>
         <Footer />
     </Router>
