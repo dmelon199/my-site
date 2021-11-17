@@ -21,7 +21,7 @@ const MyResume = (props) => {
 					})}
 					</div>
 				<div className="resume-button d-flex justify-content-center">
-						<a className='btn-primary btn-med' style={{color:"#fff", fontWeight:"bold", margin: "30px", backgroundColor:"#04a9e0", padding:"20px 30px"}} target="_blank" rel="norefeller" href="/images/resume-test.pdf">Download Resume</a>
+						<a className='btn-primary btn-med' style={{color:"#fff", fontWeight:"bold", margin: "30px", backgroundColor:"#04a9e0", padding:"20px 30px"}} target="_blank" rel="norefeller" href="/images/resume.pdf">Download Resume</a>
 				</div>
 			</div>
 		</div>

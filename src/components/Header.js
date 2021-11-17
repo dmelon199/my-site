@@ -12,7 +12,7 @@ const Header = () => {
 				<ul className="nav">
 					<li><Link to='/'>Home</Link></li>
 					<li><Link to='/projects'>Projects</Link></li>
-					<li><a href='/images/resume-test.pdf' target="_BLANK">Resume</a></li>
+					<li><a href='/images/resume.pdf' target="_BLANK">Resume</a></li>
 				</ul>
 			</navbar>
 			<p className="ml-auto">{date}</p>
