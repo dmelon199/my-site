@@ -1,56 +1,80 @@
 {
-    "lithia": {
-      "class":"lithia",
-      "link":"/lithia",
-      "imgUrl": "./images/desktop/lithia/lithia-index.jpg",
-      "name": "Lithia Motors"
-    },
-    "salt-lake": {
-      "class":"salt-lake",
-      "link":"/salt-lake-city",
-      "imgUrl": "./images/desktop/saltlake/saltlake-INDEX.jpg",
-      "name": "Salt Lake City Motorcars"
-    },
-    "avondale": {
-      "class":"avondale",
-      "link":"/avondale-select",
-      "imgUrl": "./images/desktop/avondale/avondale-INDEX.jpg",
-      "name": "Avondale Select"
-    },
-    "ogara": {
-      "class":"ogara",
-      "link":"/ogara-coach",
-      "imgUrl": "./images/desktop/ogara/ogara-INDEX.jpg",
-      "name": "O'Gara Coach"
-    },
-    "fredbeans": {
-      "class":"fredbeans",
-      "link":"/fredbeans",
-      "imgUrl": "./images/desktop/fredbeans/fredbeans-INDEX.jpg",
-      "name": "Fred Beans Auto Group"
-    },
-    "carter": {
-      "class":"carter",
-      "link":"/carter-meyers",
-      "imgUrl": "./images/desktop/cartermyers/carter-INDEX.jpg",
-      "name": "Carter Meyers Automotive"
-    },
-    "luther": {
-      "class":"luther",
-      "link":"/luther",
-      "imgUrl": "./images/desktop/luther/luther-INDEX.jpg",
-      "name": "Luther Automotive"
-    },
-    "sunwise": {
-      "class":"sunwise",
-      "link":"/sunwise",
-      "imgUrl": "./images/desktop/sunwise/sunwise-INDEX.jpg",
-      "name": "Sunwise Automotive Group"
-    },
-    "nahant": {
-      "class":"nahant",
-      "link":"https://www.nahantbeach.com/",
-      "imgUrl": "./images/desktop/nahant/nahant-INDEX.png",
-      "name": "Nahant Beach"
-    }
+  "atlanta": {
+    "class":"atlanta",
+    "link":"/atlanta",
+    "imgUrl": "./images/desktop/atlanta/atlanta-INDEX-desktop.jpg",
+    "name": "Atlanta Motorcars"
+  },
+  "avondale": {
+    "class":"avondale",
+    "link":"/avondale-select",
+    "imgUrl": "./images/desktop/avondale/avondale-INDEX.jpg",
+    "name": "Avondale Select"
+  },
+  "carter": {
+    "class":"carter",
+    "link":"/carter-meyers",
+    "imgUrl": "./images/desktop/cartermyers/carter-INDEX.jpg",
+    "name": "Carter Meyers Automotive"
+  },
+  "fredbeans": {
+    "class":"fredbeans",
+    "link":"/fredbeans",
+    "imgUrl": "./images/desktop/fredbeans/fredbeans-INDEX.jpg",
+    "name": "Fred Beans Auto Group"
+  },
+  "genesis": {
+    "class":"genesis",
+    "link":"/genesis",
+    "imgUrl": "./images/desktop/genesis/genesis-INDEX.jpg",
+    "name": "Genesis Motors"
+  },
+  "lamborghini": {
+    "class":"lamborghini",
+    "link":"/lamborghini",
+    "imgUrl": "./images/desktop/lamborghini/lamborghini-INDEX-1.jpg",
+    "name": "Lamborghini"
+  },
+  "lithia": {
+    "class":"lithia",
+    "link":"/lithia",
+    "imgUrl": "./images/desktop/lithia/lithia-index.jpg",
+    "name": "Lithia Motors"
+  },
+  "luther": {
+    "class":"luther",
+    "link":"/luther",
+    "imgUrl": "./images/desktop/luther/luther-INDEX.jpg",
+    "name": "Luther Automotive"
+  },
+  "nahant": {
+    "class":"nahant",
+    "link":"https://www.nahantbeach.com/",
+    "imgUrl": "./images/desktop/nahant/nahant-INDEX.png",
+    "name": "Nahant Beach"
+  },
+  "salt-lake": {
+    "class":"salt-lake",
+    "link":"/salt-lake-city",
+    "imgUrl": "./images/desktop/saltlake/saltlake-INDEX.jpg",
+    "name": "Salt Lake City Motorcars"
+  },
+  "splash": {
+    "class":"splash",
+    "link":"/splash",
+    "imgUrl": "./images/desktop/splash/splash1.jpg",
+    "name": "Splash Page Designs"
+  },
+  "sunwise": {
+    "class":"sunwise",
+    "link":"/sunwise",
+    "imgUrl": "./images/desktop/sunwise/sunwise-INDEX.jpg",
+    "name": "Sunwise Automotive Group"
+  },
+  "ogara": {
+    "class":"ogara",
+    "link":"/ogara-coach",
+    "imgUrl": "./images/desktop/ogara/ogara-INDEX.jpg",
+    "name": "O'Gara Coach"
   }
+}

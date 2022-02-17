@@ -12,7 +12,7 @@ const WelcomeSection = () => {
 					</Zoom> 
 				</div>
 			</div>
-			<div className="welcome-hero welcome-right-hero d-flex col-md-6 col-xs-12 px-5">
+			<div className="welcome-hero welcome-right-hero d-flex col-md-6 col-xs-12">
 				<div className="content">
 					<div>
 						<h1>I design and build things on the world wide web.</h1>

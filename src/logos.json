@@ -2,7 +2,7 @@
     "idev-logo": {
       "class":"idev",
       "imgUrl": "./logos/idev3-logo.png",
-      "name": "iDev"
+      "name": "Implementation Development"
   },
     "air-logo": {
       "class":"air-logo",
@@ -24,6 +24,16 @@
       "imgUrl": "./logos/iQA-logo.png",
       "name": "Implementation QA"
     },
+    "today": {
+      "class":"today-logo",
+      "imgUrl": "./logos/today.png",
+      "name": "Today It All Begins"
+    },
+    "dev-tank": {
+      "class":"tank-logo",
+      "imgUrl": "./logos/devtank.png",
+      "name": "DevTank"
+    },
     "merlin-logo": {
       "class":"merlin-logo",
       "imgUrl": "./logos/merlin-logo.png",
@@ -44,6 +54,11 @@
       "imgUrl": "./logos/santa-gopher.png",
       "name": "Santa Gopher"
     },
+    "presidents-gopher": {
+      "class":"presidents-gopher",
+      "imgUrl": "./logos/presidents-gopher.png",
+      "name": "Presidents Day Gopher"
+    },
     "st-patricks-gopher": {
       "class":"st-patricks-gopher",
       "imgUrl": "./logos/st-patricks-gopher.png",
@@ -58,6 +73,11 @@
       "class":"summer-gopher",
       "imgUrl": "./logos/summer-gopher.png",
       "name": "Summer Gopher"
+    },
+    "independence-gopher": {
+      "class":"summer-gopher",
+      "imgUrl": "./logos/independence-gopher.png",
+      "name": "Independence Day Gopher"
     },
     "turkey-gopher": {
       "class":"turkey-gopher",
